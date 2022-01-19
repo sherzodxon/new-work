@@ -1,0 +1,694 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('../fonts/FredokaOne-Regular.woff2') format('woff2'),
+        url('../fonts/FredokaOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-SemiBold.woff2') format('woff2'),
+        url('../fonts/HindMadurai-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-Regular.woff2') format('woff2'),
+        url('../fonts/HindMadurai-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-Light.woff2') format('woff2'),
+        url('../fonts/HindMadurai-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-Medium.woff2') format('woff2'),
+        url('../fonts/HindMadurai-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('../fonts/HindMadurai-Bold.woff2') format('woff2'),
+        url('../fonts/HindMadurai-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.background-pink {
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(242, 206, 218, 0.3);
+}
+
+.container {
+    width: 1125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.header-list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 500px;
+}
+
+.sale-link {
+    text-decoration: none;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 14px 50px;
+    background-color: rgba(210, 49, 102, 1);
+    border-radius: 5px;
+}
+
+.sale-link:hover {
+    background-color: red;
+}
+
+.header-item-link {
+    color: rgba(21, 1, 1, 1);
+    text-decoration: none;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.header-item-link:hover {
+    color: red;
+}
+
+.intro-text {
+    margin-top: 196px;
+    margin-bottom: 213px;
+}
+
+.intro-first-text {
+    color: rgba(15, 1, 1, 1);
+}
+
+.intro-second-text {
+    font-family: Fredoka One, sans-serif;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 655px;
+}
+
+.intro-three-text {
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(15, 1, 1, 1);
+    width: 523px;
+    margin-top: 35px;
+    margin-bottom: 63px;
+}
+
+.intro-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-image: url(../image/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 133px + (842px / 2)) center;
+}
+
+.pink {
+    color: rgba(210, 49, 102, 1);
+}
+
+.chance-text {
+    width: 198px;
+    text-align: center;
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 28px;
+}
+
+.chance-title {
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.chance-item {
+    width: 250px;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 7px;
+}
+
+.chance-item:hover {
+    -webkit-box-shadow: 10px 20px 15px 20px rgb(221, 213, 213, 0.5);
+            box-shadow: 10px 20px 15px 20px rgb(221, 213, 213, 0.5);
+}
+
+.chance-list {
+    width: 1125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.car {
+    background-image: url(../image/car.svg);
+    background-repeat: no-repeat;
+    background-position: center calc(50% - 30px);
+}
+
+.group {
+    background-image: url(../image/group.svg);
+    background-repeat: no-repeat;
+    background-position: center calc(50% - 30px);
+}
+
+.cashback {
+    background-image: url(../image/cash-back.svg);
+    background-repeat: no-repeat;
+    background-position: center calc(50% - 30px);
+}
+
+.fast {
+    background-image: url(../image/fast-delivery.svg);
+    background-repeat: no-repeat;
+    background-position: center calc(50% - 30px);
+}
+
+.oatmea-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+}
+
+.oatmea-character {
+    width: 442px;
+    margin-bottom: 50px;
+}
+
+.oatmea-title {
+    width: 349px;
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 19px;
+}
+
+.products-list {
+    width: 800px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-title {
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.product-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 3px solid transparent;
+}
+
+.product-link:hover {
+    border-bottom: 3px solid rgba(210, 49, 102, 1);
+}
+
+.ice-creams {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 50px;
+}
+
+.ice-creams:nth-child(2n + 1) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    text-align: right;
+}
+
+.bonu-pain {
+    width: 454px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 11px;
+}
+
+.cost {
+    width: 125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 28px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+
+.cost-real {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.cost-del {
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.right-cost {
+    margin-left: auto;
+}
+
+.ice-creams-title {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.comment-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.five-image {
+    width: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.orange {
+    color: rgba(246, 118, 44, 1);
+}
+
+.left-image {
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.left-image:hover {
+    border: 2px solid rgba(210, 49, 102, 1);
+}
+
+.comment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.comment-name {
+    margin-left: 21px;
+}
+
+.comment-text {
+    width: 322px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.american {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+}
+
+.simple-text {
+    width: 607px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.simple-market {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    margin-top: 70px;
+}
+
+.simple-container::before {
+    width: 305px;
+    height: 797px;
+    background-image: url(../image/maskgroup.png );
+    background-repeat: no-repeat;
+    display: block;
+    content: '';
+    margin-top: 50px;
+    margin-bottom: -220px;
+}
+
+.simple-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.market-list {
+    list-style: none;
+}
+
+.one::before {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    content: '';
+    display: block;
+    background-image: url(../image/qol.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.two::before {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    content: '';
+    display: block;
+    background-image: url(../image/add.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.three::before {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    content: '';
+    display: block;
+    background-image: url(../image/e-imzo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.market-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 160px;
+    text-align: left;
+    margin: 5px;
+}
+
+.two {
+    width: 126px;
+}
+
+.simple-title {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+}
+
+.application {
+    width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.application-link:hover {
+    opacity: 0.7;
+}
+
+.question-menu {
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question-title {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 150px;
+    width: 522px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    width: 636px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tel-input {
+    padding: 29px 156px 29px 25px;
+    margin-bottom: 37px;
+    border: 1px solid rgba(210, 49, 102, 1);
+    border-radius: 5px;
+}
+
+.quest-input {
+    padding: 28px 120px 28px 25px;
+    margin-bottom: 37px;
+    border: 1px solid rgba(210, 49, 102, 1);
+    border-radius: 5px;
+}
+
+.savol-input {
+    padding: 29px 300px 29px 25px;
+    border: 1px solid rgba(210, 49, 102, 1);
+    border-radius: 5px;
+}
+
+.button-send {
+    padding: 25px 36px 25px 36px;
+    border: rgba(210, 49, 102, 1);
+    background-color: rgba(210, 49, 102, 1);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
